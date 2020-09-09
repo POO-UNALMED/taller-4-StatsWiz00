@@ -10,6 +10,7 @@ public class Persona {
 
     Persona(){
         this.cedula=0;
+        totalPersonas++;
     }
     Persona(long cedula, String nombre) {
         this.cedula = cedula;
